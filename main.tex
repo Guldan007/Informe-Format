@@ -1,5 +1,7 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a4paper,12pt]{article}
 \usepackage[numbers,super,sort&compress,merge,mcite]{natbib}
+%\usepackage{biblatex}
+%\addbibresource{Bibliografía.bib}
 \usepackage[latin1, utf8]{inputenc}
 \usepackage[version=4]{mhchem} 
 \usepackage[activeacute,english,spanish,es-tabla]{babel}
@@ -124,13 +126,13 @@ En este apartado mostramos el proceso, con aciertos y desaciertos encontrados en
         La optimización constante de cada uno de los softwares que usamos para el análisis de datos nos impulsará a tener resultados más instantáneos y poder comprender los diversos mecanismos que se encuentran en el organismo a través de softwares informáticos, es por ello que presenta una alta importancia de que una persona que desee iniciar en el campo de la bioinformática tenga conocimiento de como es que las computadoras gestionan los datos ingresados. 
 
         \subsubsection{Evidencias}
-        Se adjuntan el desarrollo de aprendizaje del lenguaje de programación: \ref{Fig:BashScript}
+        Se adjuntan el desarrollo de aprendizaje del lenguaje de programación: \ref{BashScript}
 
         \begin{figure}[H]
             \centering
             \includegraphics[width=14cm]{img/scrip.png}
             \caption{Aplicación de lenguaje Bash}
-            \label{Fig:BashScript}
+            \label{BashScript}
         \end{figure}
         
            
@@ -154,35 +156,77 @@ En este apartado mostramos el proceso, con aciertos y desaciertos encontrados en
          Para ello usamos las herramientas propuestas por un software llamado Gromacs que a traves de diversos comandos nos brinda la ayuda para pasar de una molécula compactada a una molécula a la que se le puede captar en una vibración fisiológica ayudándonos a contemplar las características fisicoquímica que presenta estando se encuentra estable.
 
          \subsubsection{Metodología}
+         Para superar las dificultades iniciales tuvimos que aprender a instalar el programa Gromacs desde el comienzo, para ello se realizó la aplicación de los diversos comandos anteriormente estudiados, Gromacs es un software que presenta muchas herramientas una de ellas es la fusión de realizar dinámica molecular la cual está dividida en limpieza de estructuras, opciones de capos de fuerza (las más usadas son el campo OPLS no solo empleado en campos proteicos, sino también en ARN)
+         , topología, estabilización de la estructura por minimización de energía \ref{Imagen-Aguas}, control de temperatura y presión y finalmente  el análisis de resultados \ref{RMSD}.
+
+         Las formas en las que empezamos a realizar es de manera "steps" o paso a paso, como también existe la manera automatizada la cual se tiene que realizar desde un script de bash que gracias a la automatización por uso de sus comandos permite realizar los pasos en uno solo.
          
          \subsubsection{Resultados y discusión}
          Gromacs es un software complejo que nos ayuda a poder encontrar la estabilidad fisiológica de las moléculas y encontrar las características de la dinámica molecular de una proteína y es elegido por muchos por la gran variedad de herramientas que nos ofrece como lo es correr dinámicas moleculares con ligando o mantener encontrar interacciones de dominios transmembranales transmembranales, pero por el momento podemos afirmar que se comprendió el funcionamiento de la herramienta de dinámica molecular.
-         \subsubsection{Evidencias}
+
+         Tomamos en cuenta que Gromacs no es la única herramienta que existe pero es la mejor para hacer simulaciones ya que los cálculos que nos brinda son más exactos debido a los campos de fuerza que usa.
+
+         El objetivo al que se quiere llegar en un principio es llegar a la minimización y para ello se obtienen gráficos donde se calcula la minimización de energía para eliminar las fuerzas no físicas presentes en la estructura inicial, ya sea por errores en la construcción del sistema o por interacciones atómicas desfavorables.
+
+         Dentro del curso de Termodinámica que se encuentra en la curricula de la escuela de Ingeniería Biotecnológica nos demostrar las leyes por las cuales se rige la materia y energía, entre ellas se sabe de la espontaneidad es decir que al minimizar la energía potencial se favorecen estados que tendrán una menor energía libre de Gibbs y serán más estables. Y es lo que se requiere para analizar una proteína en un estado fisiológico estable. \ref{Mini}
+         
+         \begin{figure}[H]
+            \centering
+            \includegraphics[width=8cm]{img/Captura desde 2024-09-26 18-01-02.png}
+            \caption{Gráfica de minimización extraída de Gromacs tutorial}
+            \label{Mini}
+         \end{figure}
+
+         Posterior a ello el segundo objetivo es el análisis de la preparación de dinámica gracias a los archivos estándar que nos brinda el mismo Gromacs estos archivos presentan información como el tiempo requerido de dinámica las propiedades del capo de fuerza la administración de la temperatura, presión.dependido de ello tenemos los archivos NVE / NVT / NPT. Donde podemos dilucidar el significado de cada uno de los archivos ya que \textbf{N} es número de átomos, \textbf{T} Temperatura, \textbf{E} Energía, \textbf{P} Presión y \textbf{V} volumen, cada uno de estos pasos son importantes para iniciar con la dinámica molecular.
+
+         Usamos este tipo de archivos para desarrollar la dinámica molecular que nos mostrará el comportamiento de los átomos y la macromolécula generando una película y dándonos a conocer las gráficas.
+
+         
+         \begin{figure}[H]
+            \begin{center}
+              \subfigure[Caja de agtua previa]{
+                  \includegraphics[width=5cm]{img/CajaAgua.png}
+                  \label{Imagen-Aguas}}
+                  \hspace{2cm}
+              \subfigure[Film posterior a la dinámica]{
+                  \includegraphics[width=5cm]{img/Dinámic.png}
+                  \label{Imagen-Dinámica}}
+              \caption{Desarrollo de la dinámica molecular con Gromacs}
+              \label{Figura-Dinámica}
+            \end{center}
+          \end{figure}
+          \vspace{0.5cm}
+
+          Finalmente se obtuvo la gráfica donde podemos ver la diferencia entre las métrica de la estructura cristalina que se tenia al comienzo. A esta métrica se le conoce como RMSD o (Root Mean Square Deviation). \ref{RMSD}
+
+          \begin{figure}[H]
+            \centering
+            \includegraphics[width=8cm]{img/GraficoAnálisisTuto.png}
+            \caption{Gráfica RMSD en comparación cristal y dinámica molecular}
+            \label{RMSD}
+          \end{figure}
+          \vspace{0.5cm}
+
+          Ya para culminar nos damos cuenta que es nuestra estructura proteica está completamente lista para usar las diversas herramientas posteriores como lo son la localización en membrana si lo requiere o si se necesita o un docker simple al igual que un Scrineen masivo dependiendo de los experimentos que se requieren. 
 
          \subsubsection{Conclusiones y recomendaciones}  
+         Podemos concluir que es necesario comprender no solo los comandos de mencionado software como lo es Gromacs, sino también cuales son los resultados y como llegó a ese objetivo.
 
     \subsection{Actividad 3: Planteamiento de un proyecto de Investigación}
 
          \subsubsection{Objetivos} 
+         \begin{enumerate}
+            \item Analizar la bibliografía inicial de manera exhaustiva
+            \item Generar una hipótesis relevante para iniciar con la investigación
+         \end{enumerate}
          \subsubsection{Justificación}
+         La manera en la que las prácticas pre-profesionales comunes operan es iniciando tanto de una actividad 
          \subsubsection{Metodología}
          \subsubsection{Resultados y discusión}
          \subsubsection{Evidencias}
          \subsubsection{Conclusiones y recomendaciones} 
 
-    \subsection{Actividad 4: Asistencia de investigación para estudiantes de intercambio}
-
-         \subsubsection{Objetivos} 
-         \subsubsection{Justificación}
-         \subsubsection{Metodología}
-         \subsubsection{Resultados y discusión}
-         \subsubsection{Evidencias}
-         \subsubsection{Conclusiones y recomendaciones}
     
-
-
-    
-      
         
 \section{Discusión}
     
@@ -197,14 +241,9 @@ Son estas inquietudes que demuestran que un internamiento a la bioinformática d
 Dentro de la Universidad Católica de Santa María existe un centro especializado en la comprensión de diferentes estructuras celulares como lo es el Centro de Investigación en Ingeniería Molecular (CIIM) a cargo del doctor "Badhin Gomez Valdez" renombrado ponente especializado en química computacional que se encargó de investigar las interacciones y comportamientos de diferentes estructuras proteicas con diversos ligandos, proteínas o comprender las patologías desde un punto de vista informático.
    
 Es allí donde se inició la aventura de mis prácticas pre-profesionales con el objetivo expreso de aprender todo lo necesario para comprender la fisiología celular iniciando con un adiestramiento informático, pasando por un proceso de comprensión y análisis bibliográfico y culminando con la comprensión del uso de diferentes herramientas como lo es el alineamiento de secuencias, interacciones proteína-proteína, proteína-ligando para culminar con un entendimiento cuántico completo sobre los comportamientos que pueden tener diferentes proteínas a cambios dentro de su entorno ya sea por un fármaco proteína o alteraciones en su via de señalización.
-   
-El objetivo de este informe es narrar las actividades realizadas y logros encontrados en estas primeras 5 semanas como practicante pre-profesional en el Centro de Investigación en Ingeniería Molecular (CIIM).
 
 
-\section{Evidencias}
-En esta sección, se adjuntan documentos y evidencias relevantes que respalden las actividades y logros mencionados en la sección anterior. Esto puede incluir informes técnicos, presentaciones, fotografías, resultados de experimentos, tablas, gráficas, entre otros.
-
-\section{Conclusiones y Recomendaciones}
+\section{Conclusiones}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -212,11 +251,8 @@ En esta sección, se adjuntan documentos y evidencias relevantes que respalden l
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section{Bibliografía}
-
-
-\bibliography{Bibliografia.bib} % Reemplaza "bibliografía" por el nombre de tu archivo .bib
-
+\bibliography{mi_biblio.bib} % Reemplaza "bibliografía" por el nombre de tu archivo .bib
+\bibliographystyle{plane}
 
 \section{Anexos}
 Agregue algunos anexos de ser necesario.
@@ -224,3 +260,4 @@ Agregue algunos anexos de ser necesario.
 
 
 \end{document}
+%https://sysonchip.wordpress.com/2018/03/03/subfiguras-con-latex/ para imágenes

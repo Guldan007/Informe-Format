@@ -1,9 +1,9 @@
-PWD /home/ciim/Documentos/David_resp/Informe1
+PWD /home/ciim/Documentos/David_resp/Informe-Format
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/ciim/Documentos/David_resp/Informe1/main.tex
+INPUT /home/ciim/Documentos/David_resp/Informe-Format/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -414,14 +414,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
-INPUT ./main.out
-INPUT ./main.out
-INPUT main.out
-INPUT main.out
-OUTPUT main.pdf
-INPUT ./main.out
-INPUT ./main.out
 OUTPUT main.out
+OUTPUT main.pdf
 INPUT ./img/Sin título.png
 INPUT ./img/Sin título.png
 INPUT ./img/Sin título.png
@@ -441,23 +435,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT ./main.toc
-INPUT ./main.toc
-INPUT main.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+OUTPUT main.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-OUTPUT main.toc
 INPUT ./img/Sin título.jpeg
 INPUT ./img/Sin título.jpeg
 INPUT ./img/Sin título.jpeg
@@ -472,6 +452,32 @@ INPUT ./img/scrip.png
 INPUT ./img/scrip.png
 INPUT ./img/scrip.png
 INPUT ./img/scrip.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./img/Captura desde 2024-09-26 18-01-02.png
+INPUT ./img/Captura desde 2024-09-26 18-01-02.png
+INPUT ./img/Captura desde 2024-09-26 18-01-02.png
+INPUT ./img/Captura desde 2024-09-26 18-01-02.png
+INPUT ./img/Captura desde 2024-09-26 18-01-02.png
+INPUT ./img/CajaAgua.png
+INPUT ./img/CajaAgua.png
+INPUT ./img/CajaAgua.png
+INPUT ./img/CajaAgua.png
+INPUT ./img/CajaAgua.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT ./img/Dinámic.png
+INPUT ./img/Dinámic.png
+INPUT ./img/Dinámic.png
+INPUT ./img/Dinámic.png
+INPUT ./img/Dinámic.png
+INPUT ./img/GraficoAnálisisTuto.png
+INPUT ./img/GraficoAnálisisTuto.png
+INPUT ./img/GraficoAnálisisTuto.png
+INPUT ./img/GraficoAnálisisTuto.png
+INPUT ./img/GraficoAnálisisTuto.png
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl

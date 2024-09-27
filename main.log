@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.16)  26 SEP 2024 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.16)  26 SEP 2024 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/ciim/Documentos/David_resp/Informe1/main.tex
-(/home/ciim/Documentos/David_resp/Informe1/main.tex
+**/home/ciim/Documentos/David_resp/Informe-Format/main.tex
+(/home/ciim/Documentos/David_resp/Informe-Format/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1217,35 +1217,32 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarythrough.code.tex
 File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 40.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./main.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
-)
+) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
-Package chemgreek Info: Activating mapping `default' on line 40.
+Package chemgreek Info: Activating mapping `default' on line 42.
 
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1266,8 +1263,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1316,43 +1313,78 @@ Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring ON on input line 40.
-(./main.out) (./main.out)
+Package hyperref Info: Link coloring ON on input line 42.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<img/Sin título.png, id=147, 225.84375pt x 225.84375pt>
+<img/Sin título.png, id=7, 225.84375pt x 225.84375pt>
 File: img/Sin título.png Graphic file (type png)
 <use img/Sin título.png>
-Package pdftex.def Info: img/Sin título.png  used on input line 48.
+Package pdftex.def Info: img/Sin título.png  used on input line 50.
 (pdftex.def)             Requested size: 113.81102pt x 113.81412pt.
-<img/images.jpeg, id=148, 225.84375pt x 225.84375pt>
+<img/images.jpeg, id=8, 225.84375pt x 225.84375pt>
 File: img/images.jpeg Graphic file (type jpg)
 <use img/images.jpeg>
-Package pdftex.def Info: img/images.jpeg  used on input line 49.
+Package pdftex.def Info: img/images.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 99.58464pt x 99.5852pt.
- [1
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./img/Sin título.png> <./img/images.jpeg>] (./main.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [1])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./img/Sin título.png> <./img/images.jpeg>]
+No file main.toc.
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [2]
-<img/Sin título.jpeg, id=202, 225.84375pt x 225.84375pt>
+[1]
+<img/Sin título.jpeg, id=22, 225.84375pt x 225.84375pt>
 File: img/Sin título.jpeg Graphic file (type jpg)
 <use img/Sin título.jpeg>
-Package pdftex.def Info: img/Sin título.jpeg  used on input line 83.
+Package pdftex.def Info: img/Sin título.jpeg  used on input line 85.
 (pdftex.def)             Requested size: 103.88937pt x 103.88937pt.
- [3 <./img/Sin título.jpeg>]
-<img/scrip.png, id=211, 1915.155pt x 939.51pt>
+ [2 <./img/Sin título.jpeg>]
+
+LaTeX Warning: Reference `BashScript' on page 3 undefined on input line 129.
+
+<img/scrip.png, id=35, 1915.155pt x 939.51pt>
 File: img/scrip.png Graphic file (type png)
 <use img/scrip.png>
-Package pdftex.def Info: img/scrip.png  used on input line 131.
+Package pdftex.def Info: img/scrip.png  used on input line 133.
 (pdftex.def)             Requested size: 398.33858pt x 195.4106pt.
- [4] [5 <./img/scrip.png>] [6] [7] (./main.bbl) [8] [9] (./main.aux
+[3] [4 <./img/scrip.png>]
+
+LaTeX Warning: Reference `Imagen-Aguas' on page 5 undefined on input line 160.
+
+
+LaTeX Warning: Reference `RMSD' on page 5 undefined on input line 160.
+
+[5]
+
+LaTeX Warning: Reference `Mini' on page 6 undefined on input line 171.
+
+<img/Captura desde 2024-09-26 18-01-02.png, id=63, 754.82pt x 575.14874pt>
+File: img/Captura desde 2024-09-26 18-01-02.png Graphic file (type png)
+<use img/Captura desde 2024-09-26 18-01-02.png>
+Package pdftex.def Info: img/Captura desde 2024-09-26 18-01-02.png  used on input line 175.
+(pdftex.def)             Requested size: 227.62204pt x 173.4411pt.
+<img/CajaAgua.png, id=64, 386.44376pt x 420.57124pt>
+File: img/CajaAgua.png Graphic file (type png)
+<use img/CajaAgua.png>
+Package pdftex.def Info: img/CajaAgua.png  used on input line 189.
+(pdftex.def)             Requested size: 142.26378pt x 154.826pt.
+<img/Dinámic.png, id=65, 386.44376pt x 420.57124pt>
+File: img/Dinámic.png Graphic file (type png)
+<use img/Dinámic.png>
+Package pdftex.def Info: img/Dinámic.png  used on input line 193.
+(pdftex.def)             Requested size: 142.26378pt x 154.826pt.
+[6 <./img/Captura desde 2024-09-26 18-01-02.png>]
+
+LaTeX Warning: Reference `RMSD' on page 7 undefined on input line 200.
+
+<img/GraficoAnálisisTuto.png, id=73, 754.82pt x 575.14874pt>
+File: img/GraficoAnálisisTuto.png Graphic file (type png)
+<use img/GraficoAnálisisTuto.png>
+Package pdftex.def Info: img/GraficoAnálisisTuto.png  used on input line 204.
+(pdftex.def)             Requested size: 227.62204pt x 173.4411pt.
+[7 <./img/CajaAgua.png> <./img/Dinámic.png> <./img/GraficoAnálisisTuto.png>] [8] [9] (./main.bbl) [10] (./main.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -1360,22 +1392,35 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C288FD2CB4B4BCBC98CC1F14F41949E2;5722.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  A36A7B67ACE12CFB89D7B531DB19B4B2;5500.
  ) 
 Here is how much of TeX's memory you used:
- 38286 strings out of 474222
- 891403 string characters out of 5748733
- 1938975 words of memory out of 5000000
- 59827 multiletter control sequences out of 15000+600000
- 568956 words of font info for 58 fonts, out of 8000000 for 9000
+ 38269 strings out of 474222
+ 891683 string characters out of 5748733
+ 1934975 words of memory out of 5000000
+ 59817 multiletter control sequences out of 15000+600000
+ 569014 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,93p,926b,787s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,932b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (10 pages, 270637 bytes).
+Output written on main.pdf (11 pages, 1002633 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,36 +1,34 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{3}{section.2}%
-\contentsline {section}{\numberline {2}Reseña de Actividades}{3}{section.4}%
-\contentsline {subsection}{\numberline {2.1}Actividad 1: Inducción a la informática}{3}{subsection.5}%
-\contentsline {subsubsection}{\numberline {2.1.1}Objetivos}{3}{subsubsection.6}%
-\contentsline {subsubsection}{\numberline {2.1.2}Justificación}{3}{subsubsection.9}%
-\contentsline {subsubsection}{\numberline {2.1.3}Metodología}{4}{subsubsection.10}%
-\contentsline {subsubsection}{\numberline {2.1.4}Resultados esperados}{4}{subsubsection.11}%
-\contentsline {subsubsection}{\numberline {2.1.5}Evidencias}{5}{subsubsection.12}%
-\contentsline {subsubsection}{\numberline {2.1.6}Conclusiones y recomendaciones}{5}{subsubsection.14}%
-\contentsline {subsection}{\numberline {2.2}Actividad 2: Inducción a la Dinámica Molecular}{5}{subsection.15}%
-\contentsline {subsubsection}{\numberline {2.2.1}Objetivos}{5}{subsubsection.16}%
-\contentsline {subsubsection}{\numberline {2.2.2}Justificación}{6}{subsubsection.20}%
-\contentsline {subsubsection}{\numberline {2.2.3}Metodología}{6}{subsubsection.21}%
-\contentsline {subsubsection}{\numberline {2.2.4}Resultados y discusión}{6}{subsubsection.22}%
-\contentsline {subsubsection}{\numberline {2.2.5}Evidencias}{7}{subsubsection.23}%
-\contentsline {subsubsection}{\numberline {2.2.6}Conclusiones y recomendaciones}{7}{subsubsection.24}%
-\contentsline {subsection}{\numberline {2.3}Actividad 3: Planteamiento de un proyecto de Investigación}{7}{subsection.25}%
-\contentsline {subsubsection}{\numberline {2.3.1}Objetivos}{7}{subsubsection.26}%
-\contentsline {subsubsection}{\numberline {2.3.2}Justificación}{7}{subsubsection.27}%
-\contentsline {subsubsection}{\numberline {2.3.3}Metodología}{7}{subsubsection.28}%
-\contentsline {subsubsection}{\numberline {2.3.4}Resultados y discusión}{7}{subsubsection.29}%
-\contentsline {subsubsection}{\numberline {2.3.5}Evidencias}{7}{subsubsection.30}%
-\contentsline {subsubsection}{\numberline {2.3.6}Conclusiones y recomendaciones}{7}{subsubsection.31}%
-\contentsline {subsection}{\numberline {2.4}Actividad 4: Asistencia de investigación para estudiantes de intercambio}{7}{subsection.32}%
-\contentsline {subsubsection}{\numberline {2.4.1}Objetivos}{7}{subsubsection.33}%
-\contentsline {subsubsection}{\numberline {2.4.2}Justificación}{7}{subsubsection.34}%
-\contentsline {subsubsection}{\numberline {2.4.3}Metodología}{7}{subsubsection.35}%
-\contentsline {subsubsection}{\numberline {2.4.4}Resultados y discusión}{7}{subsubsection.36}%
-\contentsline {subsubsection}{\numberline {2.4.5}Evidencias}{7}{subsubsection.37}%
-\contentsline {subsubsection}{\numberline {2.4.6}Conclusiones y recomendaciones}{7}{subsubsection.38}%
-\contentsline {section}{\numberline {3}Discusión}{7}{section.39}%
-\contentsline {section}{\numberline {4}Evidencias}{8}{section.40}%
-\contentsline {section}{\numberline {5}Conclusiones y Recomendaciones}{9}{section.41}%
-\contentsline {section}{\numberline {6}Bibliografía}{9}{section.42}%
-\contentsline {section}{\numberline {7}Anexos}{9}{section.43}%
+\contentsline {section}{\numberline {1}Introducción}{2}{section.2}%
+\contentsline {section}{\numberline {2}Reseña de Actividades}{2}{section.4}%
+\contentsline {subsection}{\numberline {2.1}Actividad 1: Inducción a la informática}{2}{subsection.5}%
+\contentsline {subsubsection}{\numberline {2.1.1}Objetivos}{2}{subsubsection.6}%
+\contentsline {subsubsection}{\numberline {2.1.2}Justificación}{2}{subsubsection.9}%
+\contentsline {subsubsection}{\numberline {2.1.3}Metodología}{3}{subsubsection.10}%
+\contentsline {subsubsection}{\numberline {2.1.4}Resultados esperados}{3}{subsubsection.11}%
+\contentsline {subsubsection}{\numberline {2.1.5}Evidencias}{4}{subsubsection.12}%
+\contentsline {subsubsection}{\numberline {2.1.6}Conclusiones y recomendaciones}{4}{subsubsection.14}%
+\contentsline {subsection}{\numberline {2.2}Actividad 2: Inducción a la Dinámica Molecular}{4}{subsection.15}%
+\contentsline {subsubsection}{\numberline {2.2.1}Objetivos}{4}{subsubsection.16}%
+\contentsline {subsubsection}{\numberline {2.2.2}Justificación}{5}{subsubsection.20}%
+\contentsline {subsubsection}{\numberline {2.2.3}Metodología}{5}{subsubsection.21}%
+\contentsline {subsubsection}{\numberline {2.2.4}Resultados y discusión}{5}{subsubsection.22}%
+\contentsline {subsubsection}{\numberline {2.2.5}Conclusiones y recomendaciones}{8}{subsubsection.28}%
+\contentsline {subsection}{\numberline {2.3}Actividad 3: Planteamiento de un proyecto de Investigación}{8}{subsection.29}%
+\contentsline {subsubsection}{\numberline {2.3.1}Objetivos}{8}{subsubsection.30}%
+\contentsline {subsubsection}{\numberline {2.3.2}Justificación}{8}{subsubsection.33}%
+\contentsline {subsubsection}{\numberline {2.3.3}Metodología}{8}{subsubsection.34}%
+\contentsline {subsubsection}{\numberline {2.3.4}Resultados y discusión}{8}{subsubsection.35}%
+\contentsline {subsubsection}{\numberline {2.3.5}Evidencias}{8}{subsubsection.36}%
+\contentsline {subsubsection}{\numberline {2.3.6}Conclusiones y recomendaciones}{8}{subsubsection.37}%
+\contentsline {subsection}{\numberline {2.4}Actividad 4: Asistencia de investigación para estudiantes de intercambio}{8}{subsection.38}%
+\contentsline {subsubsection}{\numberline {2.4.1}Objetivos}{8}{subsubsection.39}%
+\contentsline {subsubsection}{\numberline {2.4.2}Justificación}{8}{subsubsection.40}%
+\contentsline {subsubsection}{\numberline {2.4.3}Metodología}{8}{subsubsection.41}%
+\contentsline {subsubsection}{\numberline {2.4.4}Resultados y discusión}{8}{subsubsection.42}%
+\contentsline {subsubsection}{\numberline {2.4.5}Evidencias}{8}{subsubsection.43}%
+\contentsline {subsubsection}{\numberline {2.4.6}Conclusiones y recomendaciones}{8}{subsubsection.44}%
+\contentsline {section}{\numberline {3}Discusión}{8}{section.45}%
+\contentsline {section}{\numberline {4}Evidencias}{10}{section.46}%
+\contentsline {section}{\numberline {5}Conclusiones y Recomendaciones}{10}{section.47}%
+\contentsline {section}{\numberline {6}Anexos}{10}{section.48}%
